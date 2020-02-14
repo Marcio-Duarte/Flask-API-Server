@@ -1,0 +1,6 @@
+#Files
+__init__.py
+
+#Folders
+__pycache__*
+ApiServer-env
