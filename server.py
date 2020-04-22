@@ -1,10 +1,10 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-import data as users; 
+# -- File imports -- #
+from data import users_list as users
 
 app = Flask(__name__)
 api = Api(app)
-users = users.users_list
 
 # -- Routes -- #
 class User(Resource):
